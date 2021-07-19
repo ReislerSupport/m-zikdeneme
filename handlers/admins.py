@@ -24,7 +24,7 @@ async def pause(_, message: Message):
         await message.reply_text("▶️ Duraklatıldı!")
 
 
-@Client.on_message(command("Duraklat") & other_filters)
+@Client.on_message(command("Devam") & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
