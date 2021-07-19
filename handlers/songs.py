@@ -22,9 +22,9 @@ from youtube_dl.utils import (
 
 @Client.on_message(filters.command("bul") & ~filters.edited)
 async def song(client, message):
-    cap = "@t.me/intikamtimii"
+    cap = "@intikamtimii"
     url = message.text.split(None, 1)[1]
-    rkp = await message.reply("Processing...")
+    rkp = await message.reply("Yükleniyor...")
     if not url:
         await rkp.edit("**What's the song you want?**\nUsage`/song <song name>`")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
@@ -92,7 +92,7 @@ async def song(client, message):
         return
     time.time()
     if song:
-        await rkp.edit("Çıkartılıyor...") #@t.me/intikamtimii
+        await rkp.edit("Yükleniyor...") #@intikamtimii
         lol = "./etc/thumb.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
