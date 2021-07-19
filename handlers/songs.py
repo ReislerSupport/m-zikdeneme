@@ -20,9 +20,9 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-@Client.on_message(filters.command("song") & ~filters.edited)
+@Client.on_message(filters.command("bul") & ~filters.edited)
 async def song(client, message):
-    cap = "@JEBotZ"
+    cap = "@t.me/intikamtimii"
     url = message.text.split(None, 1)[1]
     rkp = await message.reply("Processing...")
     if not url:
@@ -58,7 +58,7 @@ async def song(client, message):
         }
         song = True
     try:
-        await rkp.edit("Downloading...")
+        await rkp.edit("İndiriliyor...")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -91,8 +91,8 @@ async def song(client, message):
         await rkp.edit(f"{str(type(e)): {str(e)}}")
         return
     time.time()
-    if song:
-        await rkp.edit("Çıkartılıyor...") #İntikamtimi
+    if bul:
+        await rkp.edit("Çıkartılıyor...") #@t.me/intikamtimii
         lol = "./etc/thumb.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
