@@ -90,7 +90,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.edited 
                    & ~filters.forwarded
                    & ~filters.via_bot)
-async def play(_, message: Message):
+async def oynat(_, message: Message):
 
     lel = await message.reply("🔄 **ARANIYOR...**")
     
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel 🔊",
-                        url="https://t.me/Infinity_BOTs")
+                        url="https://t.me/intikamtimii")
                    
                 ]
             ]
