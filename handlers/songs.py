@@ -91,7 +91,7 @@ async def song(client, message):
         await rkp.edit(f"{str(type(e)): {str(e)}}")
         return
     time.time()
-    if bul:
+    if song:
         await rkp.edit("Çıkartılıyor...") #@t.me/intikamtimii
         lol = "./etc/thumb.jpg"
         lel = await message.reply_audio(
