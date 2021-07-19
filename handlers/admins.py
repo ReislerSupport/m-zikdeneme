@@ -52,7 +52,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("❌  Duratılan Akış!")
+        await message.reply_text("❌  Bitti!")
 
 
 @Client.on_message(command("atla") & other_filters)
@@ -72,4 +72,4 @@ async def skip(_, message: Message):
                 callsmusic.queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text("➡️ Sarkı atladı!")
+        await message.reply_text("➡️ Şarkı Değiştirildi!")
