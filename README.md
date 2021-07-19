@@ -30,7 +30,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mehmetgul0202)
 
-Use [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) to get pyrogram string session
+Use [Repl Link](https://replit.com/@Mehmetgul0202/GenerateStringSession) to get pyrogram string session
 
 ### Credits
 - [ImJanindu](https://github.com/ImJanindu): Dev
