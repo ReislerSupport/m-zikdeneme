@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def oynat(_, message: Message):
 
-    lel = await message.reply("🔄 **ARANIYOR...**")
+    lel = await message.reply("🔄 **Yükleniyor...**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -226,7 +226,7 @@ async def oynat(_, message: Message):
         await lel.edit("🔎 **Finding the song...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **Bulmak üzereyim...**")
+        await lel.edit("🎵 **Yükleniyor...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
