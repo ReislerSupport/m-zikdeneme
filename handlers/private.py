@@ -9,8 +9,8 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""I am **{bn}** !!
-I let you play music in your group's voice chat 😉
-The commands I currently support are:
+İntikam Timi Grubu Tarafından Yapılan Music Botuyum 😉
+Şu anda desteklediğim komutlar:
 ⚜️ /oynat - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı aracılığıyla oynatır.__
 ⚜️ /durdur - __Sesli Sohbet Müziği Duraklat.__
 ⚜️ /devam - __Sesli Sohbet Müziğine Devam Et.__
