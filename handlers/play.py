@@ -85,7 +85,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 
-@Client.on_message(command("başlat") 
+@Client.on_message(command("Oynat") 
                    & filters.group
                    & ~filters.edited 
                    & ~filters.forwarded
@@ -193,7 +193,7 @@ async def oynat(_, message: Message):
                             text="YouTube 🎬",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="Download 📥",
+                            text="İndirildi 📥",
                             url=f"{durl}")
 
                     ]
@@ -226,7 +226,7 @@ async def oynat(_, message: Message):
         await lel.edit("🔎 **Finding the song...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **Processing sounds...**")
+        await lel.edit("🎵 **Bulmak üzereyim...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -279,7 +279,7 @@ async def oynat(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**🎵 Song:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**#⃣ Queued Position:** {}".format(
+        caption="**🎵 Bul:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**#⃣ Queued Position:** {}".format(
         title, duration, message.from_user.mention(), position
         ),
         reply_markup=keyboard)
@@ -290,7 +290,7 @@ async def oynat(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**🎵 Bul:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**▶️ Now Playing at `{}`...**".format(
+        caption="**🎵 Bul:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**▶️ Çalıyor`{}`...**".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
