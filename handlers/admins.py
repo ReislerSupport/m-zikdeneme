@@ -31,7 +31,7 @@ async def resume(_, message: Message):
     if (
             message.chat.id not in callsmusic.pytgcalls.active_calls
     ) or (
-            callsmusic.pytgcalls.active_calls[message.chat.id] == 'playing'
+            callsmusic.pytgcalls.active_calls[message.chat.id] == 'Oynatılıyor'
     ):
         await message.reply_text("❗ Nothing is paused!")
     else:
