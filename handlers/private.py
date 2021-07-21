@@ -8,13 +8,22 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""I am **{bn}** !!
-İntikam Timi Grubu Tarafından Yapılan Music Botuyum 😉
+        f"""Merhaba**{bn}** !!
+
+@İntikamtimii Tarafından Yapılan Music Botuyum 😉
+
 Şu anda desteklediğim komutlar:
+
 ⚜️ /oynat - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı aracılığıyla oynatır.__
+
 ⚜️ /durdur - __Sesli Sohbet Müziği Duraklat.__
+
 ⚜️ /devam - __Sesli Sohbet Müziğine Devam Et.__
+
 ⚜️ /atla - __Sesli Sohbette ki Şarkıyı Atlar.__
+
+⚜️ /bul - __İstediğiniz şarkıyı arar ve İndirir.__
+
 ⚜️ /son - __Şarkıyı Sonlandırır.__
         """,
         reply_markup=InlineKeyboardMarkup(
