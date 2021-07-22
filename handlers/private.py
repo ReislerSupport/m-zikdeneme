@@ -10,23 +10,19 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""Merhaba**{bn}** !!
 
-@İntikamtimii Tarafından Yapılan Music Botuyum 😉
-
+Şu Anda Harika Bir Music Botuna Bakıyorsun 😉
+                👇👇👇👇👇
 @intikamdcbot DC Oyun Botumuzu Denediniz Mi?
+                👆👆👆👆👆
 
 Şu anda desteklediğim komutlar:
 
-⚜️ /oynat - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı aracılığıyla oynatır.__
-
-⚜️ /durdur - __Sesli Sohbet Müziği Duraklat.__
-
-⚜️ /devam - __Sesli Sohbet Müziğine Devam Et.__
-
-⚜️ /atla - __Sesli Sohbette ki Şarkıyı Atlar.__
-
-⚜️ /bul - __İstediğiniz şarkıyı arar ve İndirir.__
-
-⚜️ /son - __Şarkıyı Sonlandırır.__
+⚜️ /oynat - __👉Şarkıyı Başlatır👈__
+⚜️ /durdur - __👉Şarkıyı Durdurur👈__
+⚜️ /devam - __👉Şarkıya Devam Eder👈__
+⚜️ /atla - __👉Şarkıyı Değiştirir👈__
+⚜️ /bul - __👉YouTubeden şarkıyı arar👈__
+⚜️ /son - __👉Şarkıyı Sonlandırır👈__
         """,
         reply_markup=InlineKeyboardMarkup(
             [
