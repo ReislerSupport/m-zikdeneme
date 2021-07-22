@@ -12,6 +12,8 @@ async def start(_, message: Message):
 
 @İntikamtimii Tarafından Yapılan Music Botuyum 😉
 
+@intikamdcbot DC Oyun Botumuzu Denediniz Mi?
+
 Şu anda desteklediğim komutlar:
 
 ⚜️ /oynat - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı aracılığıyla oynatır.__
