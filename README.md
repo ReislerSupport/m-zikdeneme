@@ -15,20 +15,20 @@
 
 ### Commands 🛠
 #### For all in group
-- `/play` - reply to youtube url or song file to play song
-- `/play <song name>` - play song you requested
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
+- `/oynat` - reply to youtube url or song file to play song
+- `/cal <song name>` - play song you requested
+- `/ara <song name>` - download songs you want quickly
+- `/cevir <query>` - search videos on youtube with details
 
 #### Admins only
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
+- `/Durdur` - pause song play
+- `/devam` - resume song play
+- `/gec` - play next song
+- `/son` - stop music play
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Reisleronline/Reislerm-zikbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ReislerSupport/m-zikdeneme)
 
 Use [Repl Link](https://replit.com/@Bonzaieleele/GenerateStringSession-4#main.py) to get pyrogram string session
 
