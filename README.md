@@ -28,7 +28,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/intikatimi/hahaaaa)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adsizkaptan/reislermüzikbot)
 
 Use [Repl Link](https://replit.com/@intikatimi/GenerateStringSession-4) to get pyrogram string session
 
