@@ -12,7 +12,7 @@ async def start(_, message: Message):
 
 Şu Anda Harika Bir Music Botuna Bakıyorsun 😉
                 👇👇👇👇👇
-@intikamdcbot DC Oyun Botumuzu Denediniz Mi?
+@ReislerSupport DC Oyun Botumuzu Denediniz Mi?
                 👆👆👆👆👆
 
 Şu anda desteklediğim komutlar:
@@ -28,10 +28,10 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group 💬", url="https://t.me/intikamtimii"
+                        "Group 💬", url="https://t.me/ReislerSupport"
                     ),
                     InlineKeyboardButton(
-                        "Channel 📣", url="https://t.me/intikamtimii"
+                        "Channel 📣", url="https://t.me/ReislerSupport"
                     )
                 ]
             ]
