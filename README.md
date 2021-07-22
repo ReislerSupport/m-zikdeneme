@@ -3,7 +3,7 @@
 ### A bot that can play music on telegram group's voice call
 
 <p align="center">
-  <img src="https://tr.pinterest.com/pin/766034217841855683/">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1wzz1He41yZx69PSWSFsFVNwj87VsLyYSCCcQEvAAva2VGixqspRqRaa&s=10">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -15,7 +15,7 @@
 
 ### Commands 🛠
 #### For all in group
-- `/oynat` - reply to youtube url or song file to play song
+- `/play` - reply to youtube url or song file to play song
 - `/cal <song name>` - play song you requested
 - `/ara <song name>` - download songs you want quickly
 - `/cevir <query>` - search videos on youtube with details
