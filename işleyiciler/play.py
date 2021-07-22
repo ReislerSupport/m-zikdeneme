@@ -153,7 +153,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel 🔊",
-                        url="https://t.me/intikamtimii")
+                        url="https://t.me/ReislerSupport")
                    
                 ]
             ]
